@@ -34,7 +34,7 @@ It’s perfect for onboarding, debugging “works on my machine” issues, and k
 Download the latest binary from the Releases page:
 
 ```sh
-curl -L https://github.com/yourname/versions/releases/latest/download/versions-darwin-arm64 \
+curl -L https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/latest/download/versions-darwin-arm64 \
   -o /usr/local/bin/versions
 chmod +x /usr/local/bin/versions
 
