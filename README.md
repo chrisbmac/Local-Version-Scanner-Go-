@@ -32,10 +32,10 @@ It’s perfect for onboarding, debugging “works on my machine” issues, and k
 ## 📦 Installation (macOS)
 
 Download the latest binary from the Releases page:
-
+For MacOS
 ```sh
-curl -L https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/latest/download/versions-darwin-arm64 \
+curl -L https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/latest/download/versions-arm \
   -o /usr/local/bin/versions
 chmod +x /usr/local/bin/versions
-
+```
 Then run `versions` to see the output of your dev versions!
