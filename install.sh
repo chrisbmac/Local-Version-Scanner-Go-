@@ -5,9 +5,9 @@ set -e
 ARCH=$(uname -m)
 
 if [ "$ARCH" = "arm64" ]; then
-  BINARY_URL="https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/latest/download/versions-arm"
+  BINARY_URL="https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/download/v1.0.3/versions-arm"
 elif [ "$ARCH" = "x86_64" ]; then
-  BINARY_URL="https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/latest/download/versions-amd"
+  BINARY_URL="https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/download/v1.0.3/versions-intel"
 else
   echo "Unsupported architecture: $ARCH"
   exit 1
