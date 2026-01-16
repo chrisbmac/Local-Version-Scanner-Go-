@@ -33,9 +33,7 @@ It’s perfect for onboarding, debugging “works on my machine” issues, and k
 
 Download the latest binary from the Releases page:
 For MacOS
-```sh
-curl -L https://github.com/chrisbmac/Local-Version-Scanner-Go-/releases/latest/download/versions-arm \
-  -o /usr/local/bin/versions
-chmod +x /usr/local/bin/versions
+```
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/chrisbmac/Local-Version-Scanner-Go-/main/install.sh)"
 ```
 Then run `versions` to see the output of your dev versions!
